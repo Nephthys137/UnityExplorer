@@ -28,6 +28,7 @@ namespace UnityExplorer.Config
         public static ConfigElement<KeyCode> UI_MouseInspect_Keybind;
         public static ConfigElement<string> CSConsole_Assembly_Blacklist;
         public static ConfigElement<string> Reflection_Signature_Blacklist;
+        public static ConfigElement<bool> Reflection_Hide_NativeInfoPtrs;
 
         // internal configs
         internal static InternalConfigHandler InternalHandler { get; private set; }
